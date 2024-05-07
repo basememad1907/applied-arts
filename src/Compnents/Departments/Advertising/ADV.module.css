@@ -1,0 +1,70 @@
+.AdvHome .background{
+    height: 330px;
+    background-image: url(../imgs/Basics_of_Advertising1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.AdvHome .background .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.58);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.AdvHome .background .text{
+    color: #fff;
+    text-align: center;
+}
+.AdvHome .background .text h2{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.AdvHome .background .text a{
+    font-size: 16px;
+}
+/*  */
+/* start of aboutAdv */
+.aboutAdv .listGroup{
+    border-radius: 0;
+}
+.aboutAdv .listGroupItem{
+    border-radius: 0;
+}
+.aboutAdv .listGroupItem:hover{
+    background-color: #f6630f;  
+    color: #fff;
+    font-size: 18px;
+}.btn {
+    background-color: #2babc5e3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 8px 16px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width:992px) {
+    .AdvHome .background .text h2{
+        font-size: 43px;
+    }
+}
+/* @media screen and (max-width:768px) {
+    .AdvHome .background .text h2{
+        font-size: 45px;
+    }
+}
+@media screen and (max-width:400px) {
+    .AdvHome .background .text h2{
+        font-size: 30px;
+    }
+} */

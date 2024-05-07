@@ -1,0 +1,80 @@
+.EventsHolder{
+    display: flex;
+    justify-content: center;
+}
+.latestnews{
+ margin-left: 30px;
+ overflow: hidden;
+}
+.EventTitle{
+    height:  60px;
+    width: 80%;
+    overflow: hidden;
+    border-radius: 30% 30% 40% 0;
+    background-color: orangered;
+}
+.descTitle{
+    height: 80px;
+    overflow: hidden;
+    padding: 5px 10px;
+    background-color: rgba(250, 235, 215, 0.638);
+    border-radius: 10px 20px;
+    
+}
+.latestnews img{
+  height: 400px;
+  object-fit: cover;
+  /* box-shadow: 2px 20px 30px rgba(25, 23, 23, 0.372); */
+  box-shadow: 0 0 300px 5px #a8a8c285;
+}
+.latestnews .new{
+    position: relative;
+    z-index: 0;
+}
+.latestnews .overlay{
+    position: absolute;
+    inset: 0;
+    background-color: #0000005b;
+    z-index: 0;
+}
+.latestnews .overlay .textover p {
+   color: #0e2766; 
+}
+.latestnews .overlay h2 {
+  font-weight: 500;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 20px 0;
+  z-index: -1;
+  color:white;
+  /*  */
+
+}
+.latestnews .overlay h2::before{
+    content: "";
+    height: 50px;
+  width: 300px;
+  background-color: white;
+  z-index: 234;
+  
+}
+.latestnews .overlay .textover{
+    position: absolute;
+    top: 60%;
+    padding: 0 30px;
+}
+.latestnews .overlay span{
+    position: absolute;
+    top: -170%;
+    left: 90%;
+    font-size: 19px;
+    background-color: #0e2766;
+    color: white;
+    padding: 7px 10px;
+}
+@media (max-width: 980px){
+    .latestnews .overlay span{
+        top: -70%;
+        left: 70%;
+    } 
+   
+}

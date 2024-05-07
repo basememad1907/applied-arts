@@ -1,0 +1,57 @@
+.upload {
+    width: 500px;
+    height:400px;
+    border: 2px solid rgb(255, 170, 0);
+}
+.upload img{
+    object-fit: fill;
+    height: 100%;
+}
+.imgEnhance .text{
+    margin: 60px;
+}
+.imgEnhance .text h2{
+   padding-bottom: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 44px;
+   color: #0f0439;
+   font-weight: 500;
+}
+.imgEnhance .text p{
+   padding-bottom: 40px;
+   font-size: 17px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* .imgEnhance .btn{
+    padding: 18px 10px;
+    color: white;
+    background-color: #18006d;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 20%;
+    top: 5%;
+} */
+.btns{
+    margin-top: 20px;
+}
+.imgEnhance .btn1{
+    
+    color: white;
+    background-color: #18006d;
+    cursor: pointer;
+}
+.imgEnhance .btn2{
+    
+    color: white;
+    background-color: #4caf50;
+    cursor: pointer;
+}
+/* .imgEnhance .btn2 i{
+    max-width: 15px;
+} */
+.inpt {
+    border: none;
+    margin-top: 44px;
+    cursor: pointer;
+}
+  

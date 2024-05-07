@@ -1,0 +1,37 @@
+.schedules{
+    margin: 50px 0;
+}
+.schedules h2{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    margin-bottom: 40px;
+    position: relative;
+}
+.schedules h2::after{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    content: "";
+    height: 7px;
+    width: 180px;
+    background-color: #00123f;
+}
+.Scard {
+    margin: 20px 0;
+    padding: 6px ;
+    box-shadow:3px 20px 1cqi rgba(0, 0, 0, 0.201);
+    text-align: center;
+    cursor: pointer;
+}
+.col3{
+    font-size: 40px;
+}
+.schedules p{
+    color: #00000096;
+}
+.col9 h4{
+    color: #f6630f;
+    font-weight: 600;
+    font-size: 27px;
+}

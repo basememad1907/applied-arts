@@ -1,0 +1,24 @@
+.education {
+    margin: 50px 0;
+    background-image: url(./imgs/lines.svg);
+    background-position: center;
+    background-repeat: inherit;
+}
+.list li{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.326);
+    padding: 10px 0;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.list a{
+    color:#0f0439;
+}
+.list .icon{
+    font-size:12px;
+}
+.text{
+    padding-bottom: 80px;
+}
+.list li a:hover{
+    color: #f6630f;
+}

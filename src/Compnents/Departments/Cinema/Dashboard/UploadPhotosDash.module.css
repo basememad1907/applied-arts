@@ -1,0 +1,70 @@
+.Home{
+    padding: 50px 0;
+    width: 70%;
+}
+.Holder{
+    display: flex;
+    justify-content:center;
+}
+.Title{
+    text-align: center;
+}
+.Title h2{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    position: relative;
+}
+
+
+label{
+    margin-top: 10px;
+}
+.formControl{
+    margin-top: 5px;
+}
+.table{
+    margin-top:30px;
+    text-align: center;
+}
+
+.card img{
+    height: 250px;
+    width: 100%;
+    object-fit: fill;
+}
+.cardTitle{
+    padding: 15px 0;
+    font-size: 20px;
+}
+.cardText{
+  
+    font-size: 18px;
+}
+.btn{
+    padding: 6px 12px;
+    background-color: rgb(52, 61, 234);
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.icon{
+    font-size: 30px;
+    color: #00123f;
+}
+.requests{
+    text-align: end;
+}
+.card{
+    width: 90%;
+    margin: 30px 0;
+    background-color: rgba(245, 245, 245, 0.884);
+    border:1px solid #00123f53;
+    box-shadow: 1px 2px 10px #00123f53;
+}
+
+.requests h2{
+    color: #00123f;
+}

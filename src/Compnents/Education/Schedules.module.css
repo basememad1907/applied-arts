@@ -1,0 +1,40 @@
+.card {
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+    overflow: hidden;
+    width: 80%;
+    border: 4px solid #291381;
+    cursor: pointer;
+}
+.card img {
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.card .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.47);
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.card:hover .overlay {
+    opacity: 1;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+.card .overlay h3 {
+    position: absolute;
+    top: 33%;
+    left: 35%;
+    color: #0f0439;
+    font-size: 45px;
+}

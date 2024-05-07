@@ -1,0 +1,505 @@
+/* start of about */
+.sec2{
+    background-image: url(./imgs/shapes.svg);
+    z-index: 1;
+}
+  .bigcard{
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+  }
+  .bigcard .Lcard{
+    border-radius: 4px;
+    box-shadow:2px 1px 20px #0505053c;
+    margin: 30px 0 ;
+    width: 95%;
+    z-index: 3;
+    margin-right: 40px;
+  }
+  .bigcard img{
+
+    padding: 20px 10px 0 0;
+    width: 335px;
+    height: 325px;
+  }
+  .bigcard .textcard{
+    padding: 30px 10px;
+  }
+  .bigcard .textcard h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #464141;
+    position: relative;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+  }
+  .bigcard .textcard p{
+    font-size: 16px;
+    color: #504e4e;
+    line-height: 1.6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .bigcard .textcard .btn{
+    padding: 6px 20px;
+    background-color: #27A0A0;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: all 0.5s;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .bigcard .textcard .btn:hover{
+    background-color: #27a0a095;
+  }
+  /* ////////////////////////////////////////// */
+.about{
+   
+    background-image: url(./imgs/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    position: relative;
+    z-index: -21;
+}
+.about .overlay{
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.436);
+}
+.about .text{
+    position: absolute;
+    top: 20%;
+    z-index: 5  ;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about .text h1{
+    color: white;
+    font-size: 50px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about .text p{
+    font-size: 18px;
+    padding-top: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 20px;
+}
+.about .btn{
+
+    background-color: #f6630f;
+    padding: 10px 22px;
+    color: white;
+}
+.about .btn a{
+    color: white;
+}
+.about .btn:hover{
+    background-color: #0f0439;
+}
+/* End of about */
+
+  /* /////////////////////////////////////////////////////////////// */
+
+  .Mcard{
+    background-color: #dbecf6ba;
+    margin: 20px 0;
+    
+  }
+  .Tcard{
+    display: flex;
+    justify-content: center;
+  }
+  .whitecard {
+    width: 90%;
+    padding: 40px;
+    background-color: white;
+    margin: 20px 0;
+  }
+  .whitecard h3{
+    padding-bottom: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #4D4D4D;
+    position: relative;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .whitecard h3::after{
+    content: "";
+    position: absolute;
+    left: 0%;
+    top: 80%;
+    width: 90px;
+    height: 3px;
+    background-color: #2e2929c9;
+  }
+  
+  .whitecard p{
+    font-size: 16px;
+    color: #504e4e;
+    line-height: 1.6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .whitecard .upline{
+    border-top: 3px solid rgb(140, 135, 135);
+    padding-top: 20px;
+  }
+  .whitecard .underline{
+    border-bottom: 3px solid rgb(140, 135, 135);
+    padding-top:20px;
+  }
+/* /////////////////////////////////////////////////////////// */
+
+.dept{
+  margin: 70px 0px;
+}
+img{
+  width: 100px;
+}
+.bigcard1{
+  display: flex;
+  justify-content: space-around;
+}
+.card1 img{
+ height: 260px;
+}
+.card1{
+  margin-top: 20px;
+  position: relative; 
+  box-shadow: 2px 2px 20px rgba(95, 95, 95, 0.504);
+}
+.dept .card1 .overlay{
+  position: absolute;
+  padding: 8px 10px;
+  inset: 0;
+  z-index: 1;
+  opacity: 0;
+  transition: all 1s;
+  background-color: #0902299d;
+}
+.dept .card1:hover .overlay{
+   opacity: 1;
+}
+.dept .card1 .overlay .text1{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: 29px;
+  transform: translateY(-130px);
+  position: absolute;
+  top: 50%;
+  transition: all 1.5s;
+}
+.dept .card1:hover .overlay .text1{
+  transform: translateY(0px);
+}
+.dept .overlay .text1 .btn{
+  background-color: #f6630f;
+  color: white;
+  font-size: 17px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.dept .icon{
+  font-size: 13px;
+  padding-top: 10px;
+}
+
+@media screen and (max-width:575px){
+  .bigcard1{
+     margin-left: 50px;
+  }
+   .card1{
+      width: 67%;
+   }
+}
+@media screen and (max-width:506px){
+  .bigcard1{
+    margin-left: 34px;
+ }
+ .card1{
+  width: 80%;
+}
+}
+@media screen and (max-width:400px){
+  .bigcard1{
+    margin-left: 24px;
+ }
+ .card1{
+  width: 88%;
+}
+}
+
+.EventBox{
+   /* position: relative; */
+   margin: 40px 0;
+  }
+  .EventBox .new_events {
+    width: 80%;
+    height: 600;
+    position: relative;
+    left: 10%;
+  }
+  .Levent{
+     margin: 30px 0;
+  }
+
+  .EventBox .boxev1{
+    box-shadow: 2px 1px 20px rgba(0, 0, 0, 0.477);
+    width: 100%;
+  }
+  .EventBox .boxev1  img{
+    margin: 0px;
+    padding:10px 0;
+    width: 150px;
+    height: 150px;
+  }
+  .lastnews{
+    margin-top: 20px;
+    position: relative;
+
+  }
+  .lastnews .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: white;
+    background-color: #0c0c0c4e;
+    inset: 0;
+    z-index: 3;
+  }
+  .lastnews .overlay .textoverlay{
+    padding: 0 30px;
+    position: absolute;
+    top: 54%;
+  }
+  .lastnews .overlay .textoverlay h3{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 33px;
+    color: white;
+  }
+  .lastnews .overlay .textoverlay p{
+    font-size: 20px;
+    color: #504e4e;
+    line-height: 1.6;
+    color: #dddfe3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .lastnews img{
+    object-fit: cover;
+  }
+  .boxev1 h4{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 28px;
+  }
+  .boxev1 .text {
+    padding: 10px 0;
+    padding-left: 8px;
+  }
+  .EventBox .btn{
+    margin: 30px 50px 0 0;
+    padding: 8px 16px;
+    background-color: #27A0A0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    position: relative;
+    left: 44%;
+    border: none;
+    transition: all 0.5s;
+  }
+  .EventBox .btn:hover{
+    background-color:#27a0a09c ;
+  }
+  .EventBox .newimg img{
+    height: 400px;
+    width: 100%;
+  }
+/* Start Of Gallery */
+ .headText{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    margin: 15px 0;
+}
+
+.headText h4{
+    font-size: 40px;
+    color: #1b1252;
+    font-family: 700;
+    position: relative;
+}
+.headText h4::after{
+    position: absolute;
+    top: 110%;
+    right: -4%;
+    content: "";
+    height: 7px;
+    width: 150px;
+    background-color: #00123f;
+}
+img{
+    width: 100%;
+}
+.galleryContent .card{
+    margin: 30px 0;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    object-fit: fill;
+    object-position: center;
+}
+/* ////////////////////////////////// */
+.galleryContent .card img{
+    border-radius: 5px ;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.galleryContent .card .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    background-color: rgb(13, 12, 87);
+    z-index: 1;
+    border-radius: 5px ;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0; */
+    transition: all 1s;
+    transform: translateY(170px);
+    border-radius: 50px  50px 0 0;
+}
+.galleryContent .card:hover .overlay{
+    transform: translateY(0px);
+} 
+.galleryContent .card .holder{
+    width: 80%;
+    height: 80%;
+}
+.galleryContent .textCard h3{
+    color: white;
+    font-size: 28px;
+    padding: 0;
+    text-transform: capitalize;
+}
+.galleryContent .textCard span{
+    color: orange;
+}
+.galleryContent .textCard h5{
+    font-size: 16px;
+    padding: 0;
+    text-transform: capitalize;
+}
+.galleryContent .btns{
+    display: flex;
+    justify-content: center;
+    margin:35px  0;
+}
+.galleryContent .btns .btn{
+    padding: 8px 25px;
+    background-color: #0f0439;
+    border-radius: 0;
+    color: #fff;
+    font-size: 20px;
+    border: transparent;
+    z-index: 1;
+    position: relative;
+    cursor: pointer;
+}
+.galleryContent .btn::after{
+    content: "";
+    width: 0%;
+    height: 100%;
+    background-color:#f6630f;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    transition: all 0.4s linear;
+   
+}
+.btn:hover::after{
+    width: 100%;
+}
+
+
+
+/* ///////////////////Resposive///////////////////////// */
+
+
+@media screen and (max-width:1024px){
+  .bigcard img{
+    width: 280px;
+    height: 300px;
+  }
+  .bigcard .textcard h3{
+    font-size: 21px;
+  }
+  .bigcard .textcard p{
+    font-size: 15px;
+  }
+  .Tcard{
+    margin-left: 30px;
+  }
+  }
+  @media screen and (max-width:992px){
+   
+    .bigcard img{
+      width: 500px;
+      height: 330px;
+      margin-left: 70px;
+    }
+  }
+    @media screen and (max-width:768px){
+      .sec2{
+        margin-left: 20px;
+      }
+      .bigcard img{
+        width: 380px;
+        height: 270px;
+        margin-left: 33px;
+      }
+
+  }
+@media screen and (max-width:600px){
+      
+}
+@media screen and (max-width:480px){
+  .sec2{
+    margin-left: 40px;
+  }
+  .bigcard img{
+    margin-left: 4px;
+    width: 350px;
+    height: 250px;
+  }
+  .bigcard .Lcard span{
+    display: none;
+  }
+  .whitecard h3{
+    font-size: 23px;
+  }
+  .whitecard p{
+    font-size: 14px;
+  }
+}
+@media screen and (max-width:420px){
+  .bigcard img{
+    display: none;
+  }
+}

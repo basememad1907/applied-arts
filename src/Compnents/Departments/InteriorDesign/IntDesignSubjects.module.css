@@ -1,0 +1,23 @@
+.tableDp{
+    margin-bottom: 50px;
+}
+.tableDp {
+    margin-bottom: 50px ;
+}
+
+.tableDp h3{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    margin-bottom: 40px;
+    position: relative;
+}
+.tableDp h3::after{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    content: "";
+    height: 5px;
+    width: 450px;
+    background-color: #00123f;
+}

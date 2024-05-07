@@ -1,0 +1,140 @@
+.header1 .navbar{
+    display: flex;
+    justify-content: center;
+}
+.header1 .logo img{
+    width: 78px;
+    height: 70px;
+}
+.header1  p{
+    margin: 22px 0 10px 10px;
+    font-size: 21px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header1 .icons{
+position: absolute;
+right:8%;
+font-size: 18px;
+margin-top: 25px;
+}
+.active{
+    color: red !important;
+}
+.header2{
+    background-color: #f6630f;
+}
+.header2 .navItem .navLink{
+    color: rgb(255, 255, 255);
+}
+.header2 .navItem .active{
+    color: white;
+}
+.header2 .collapse{
+    display: flex;
+    justify-content: center;
+}
+.header2 .dropdownMenu li{
+    color: black;
+}
+.header2 .navItem{
+    margin: 0 10px;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header1 {
+    position: relative;
+}
+.header1 .profile{
+    position: absolute;
+    top: 37%;
+    left: 10%;
+}
+.header1 .profile li{
+    display: inline-block;
+}
+.header1 .navLink{
+    /* text-align: start;
+    margin-top: 27px; */
+    color: black;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+.header1 .icn{
+    font-size: 20px;
+    font-weight: 700;
+}
+.logo2 img{
+    margin-top: 10px;
+    width: 120px;
+    height: 80px;
+    display: none;
+}
+.icoon{
+    font-size: 15px;
+}
+
+@media screen and (max-width:1024px){
+    .header1 p{
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: 500;
+    }  
+    .header1 .logo img{
+        margin-top: 15px;
+        width: 60px;
+        height: 65px;
+    }
+    .header1 .navLink{
+        font-size: 17px;
+    }
+    .header1 .icn{
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width:992px){
+    .header1 p{
+        font-size: 18px;
+        font-weight: 500;
+    }  
+}
+@media screen and (max-width:900px){
+    .header1 .navLink{
+        display: none;
+    }
+    .logoutt{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:768px){
+    .header1 p{
+        font-size: 18px;
+    }  
+}
+@media screen and (max-width:680px){
+    .header1 p{
+        font-size: 17px;
+    }  
+    .header1 .logo img{
+        width: 55px;
+        height: 60px;
+    }
+    .logoutt{
+        font-size: 15px;
+    }
+    Link{
+        display: none ;
+    }
+}
+@media screen and (max-width:600px){
+   .header1 .logo img{
+        display: none;
+   }
+   .header1 p{
+        display: none;
+   }
+   .logo2 img{
+    display: block;
+   }
+}

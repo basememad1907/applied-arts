@@ -1,0 +1,233 @@
+/*////////////////////////////////////news page////////////////////////////////////////// */
+
+.News .background{
+    height: 310px;
+    background-image: url(./imgs/nnnnnn.jpg);
+    background-attachment: fixed;
+    background-position:top;
+    background-size: cover;
+    position: relative;
+}
+.News .background .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.58);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.News .background .text{
+    color: #fff;
+    text-align: center;
+}
+.News .background .text h2{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.News .textevent a{ 
+    color: navy;
+}
+.events .row{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.events .col9{
+    margin-bottom: 35px;
+}
+.events .texttt ul{
+    margin: 10px 0;
+}
+.events .texttt li{
+    color: #5a565e;
+    font-size: 15px;
+    display: inline;
+    padding-left: 10px;
+}
+.events .texttt h2{
+    padding-bottom: 10px;
+    color: #930000;
+    z-index: 1;
+}
+.events .col9 .texttt{
+    /* border: 1px solid black; */
+    box-shadow: 0 0 20px 6px #a8a8c285;
+    padding: 8px;
+}
+.events img{
+    box-shadow: 0 0 15px 6px #a8a8c285;
+    width: auto;
+    height: 180px;
+    z-index: -1;
+}
+.footer li a{
+    color: white;
+}
+
+/*  theeee latest newwwwwwwwwwwws  */
+.latestnews{
+    margin: 60px 40px 0 0;  
+}
+
+.latestnews img{
+  height: 500px;
+  object-fit: cover;
+  /* box-shadow: 2px 20px 30px rgba(25, 23, 23, 0.372); */
+  box-shadow: 0 0 30px 10px #a8a8c285;
+}
+.latestnews .new{
+    position: relative;
+    z-index: 0;
+}
+.latestnews .overlay{
+    position: absolute;
+    inset: 0;
+    background-color: #0000005b;
+    z-index: 0;
+}
+.latestnews .overlay .textover p {
+   color: white; 
+}
+.latestnews .overlay h2 {
+  font-weight: 500;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 20px 0;
+  z-index: -1;
+  color: white;
+  /*  */
+
+}
+.latestnews .overlay h2::before{
+    content: "";
+    height: 50px;
+  width: 300px;
+  background-color: white;
+  z-index: 234;
+  
+}
+.latestnews .overlay .textover{
+    position: absolute;
+    top: 60%;
+    padding: 0 30px;
+}
+.latestnews .overlay span{
+    position: absolute;
+    top: -170%;
+    left: 90%;
+    font-size: 19px;
+    background-color: #0e2766;
+    color: white;
+    padding: 7px 10px;
+}
+@media (max-width: 980px){
+    .latestnews .overlay span{
+        top: -70%;
+        left: 70%;
+    } 
+   
+}
+/* .////////////.....//////// */
+  
+.card {
+    width: 316px;
+    height: fit-content;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #efefef;
+    margin-top: 40px;
+}
+  
+.calendarToolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #efefef;
+}
+  
+.calendarToolbar > .currentMonth {
+    font-size: 20px;
+    font-weight: bold;
+    color: #19181a;
+}
+  
+.calendarToolbar > [class$="month-btn"] {
+    width: 40px;
+    aspect-ratio: 1;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    color: #19181a;
+    background: #f8f7fa;
+    border: none;
+    border-radius: 15px;
+}
+  
+.weekdays,
+.calendarDays {
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline: 18px;
+}
+.weekdays {
+    padding-top: 12px;
+}
+.calendarDays {
+    padding-bottom: 12px;
+}
+.weekdayName,
+[class$="-day"] {
+    width: 40px;
+    height: 40px;
+    color: #19181a;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.weekdayName {
+    color: #19181a;
+    font-weight: 700;
+}
+  
+.currentDay {
+    background-color: rgb(112, 71, 235);
+    color: #f8f7fa;
+    border-radius: 15px;
+    font-weight: 700;
+}  
+
+.sideBar{
+    padding: 50px 0;
+ } 
+.sideBar .list li{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.326);
+    padding: 10px 0;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.list a{
+    color:#0f0439;
+}
+.list .icon{
+    font-size:12px;
+}
+.sideBar .text1{
+    padding-bottom: 80px;
+}
+.sideBar .list li a:hover{
+    color: #f6630f;
+}
+.btnHolder{
+    margin-top: 30px;
+    text-align: center;    
+}
+.btnHolder button{
+    padding: 15px 10px;
+}

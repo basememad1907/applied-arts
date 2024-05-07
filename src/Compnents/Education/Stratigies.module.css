@@ -1,0 +1,54 @@
+
+.stratigies .text h2 ,h3{
+    font-size: 35px;
+    color: #18006d;
+    font-family: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 30px;
+}
+.stratigies .text p{
+    padding-top: 16px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.stratigies .list li a:hover{
+   color: #f6630f;
+}
+
+
+
+.stratigies .cardA {
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+    overflow: hidden;
+    width: 80%;
+    border: 4px solid #291381;
+}
+.stratigies .cardA img{
+    width: 100%;
+    transition: all 0.5s;
+}
+.stratigies .cardA .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+   background-color: rgba(0, 0, 0, 0.47);
+   opacity: 0;
+   transition: all 0.5s;
+}
+.stratigies .cardA:hover .overlay{
+    opacity: 1;
+}
+.stratigies .cardA:hover img{
+    transform: scale(1.1);
+}
+.stratigies .cardA .overlay h3{
+    position: absolute;
+    top: 33%;
+    left: 35%;
+    color:#0f0439;
+    font-size: 45px;
+}

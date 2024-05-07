@@ -1,0 +1,101 @@
+.Home{
+    padding: 50px 0;
+    width: 70%; 
+}
+.cardBody {
+    overflow-wrap: break-word; /* أو word-wrap: break-word; */
+}
+
+.Holder{
+    display: flex;
+    justify-content:center;
+}
+.Title{
+    text-align: center;
+}
+.Title h2{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    position: relative;
+}
+.Title h2::after{
+    position: absolute;
+    top: 100%;
+    left: 35%;
+    content: "";
+    height: 5px;
+    width: 250px;
+    background-color: #00123f;
+}
+
+.title h2{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    position: relative;
+}
+.title h2::after{
+    position: absolute;
+    top: 100%;
+    right: 38%;
+    content: "";
+    height: 7px;
+    width: 300px;
+    background-color: #00123f;
+}
+label{
+    margin-top: 10px;
+}
+.formControl{
+    margin-top: 5px;
+}
+.btns{
+    text-align: center;
+    margin-top: 20px;
+}
+.btn {
+    padding: 6px 20px;
+    background-color: rgb(52, 61, 234);
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.table{
+    margin-top:30px;
+    text-align: center;
+}
+
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+.cardTitle{
+    padding: 15px;
+    font-size: 20px;
+}
+.cardText{
+    padding: 0 15px;
+    font-size: 18px;
+}
+.btnn{
+    width: 100%;
+}
+.card{
+    margin: 30px 0;
+    background-color: rgba(245, 245, 245, 0.884);
+    border:1px solid #00123f53;
+    box-shadow: 1px 2px 10px #00123f53;
+}
+.card .cardBody{
+    padding: 10px;
+}
+.cardImg{
+    height: 200px;
+}

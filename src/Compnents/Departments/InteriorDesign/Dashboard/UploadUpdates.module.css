@@ -1,0 +1,81 @@
+.Home{
+    padding: 50px 0;
+    width: 70%;
+}
+.Holder{
+    display: flex;
+    justify-content:center;
+}
+.Title{
+    text-align: center;
+}
+.Title h2{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    position: relative;
+}
+.Title h2::after{
+    position: absolute;
+    top: 100%;
+    left: 32.7%;
+    content: "";
+    height: 5px;
+    width: 290px;
+    background-color: #00123f;
+}
+
+label{
+    margin-top: 10px;
+}
+.formControl{
+    margin-top: 5px;
+}
+.trash{
+    position: relative;
+    left: -17%;
+    font-size: 20px;
+}
+.btn {
+    padding: 6px 20px;
+    background-color: rgb(52, 61, 234);
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.table{
+    margin-top:30px;
+    text-align: center;;
+}
+.cardImg{
+ height: 200px;
+}
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+.cardTitle{
+    padding: 15px;
+    font-size: 20px;
+}
+.cardText{
+    padding: 0 15px;
+    font-size: 18px;
+}
+.btnn{
+    width: 100%;
+}
+.text{
+    color: blue;
+    font-size: 12px;
+}
+.linkLable{
+    color: black;
+}
+.card{
+    border: 1px solid rgba(0, 0, 0, 0.401);
+    box-shadow: 1px 2px 10px rgba(5, 5, 96, 0.738);
+}

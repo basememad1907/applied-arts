@@ -1,0 +1,32 @@
+.img img{
+    width: 100px;
+    height: 270px;
+}
+.text h2{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 14px;
+    color:#18006d;
+    font-weight: 600;
+}
+.text li{
+    padding-top: 8px ;
+    font-size: 16px;
+}
+.text li span{
+    font-size: 18px;
+    color: #0f0439;
+    font-weight: 500;
+}
+
+.row{
+    margin-bottom: 80px ;
+}
+.p{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.text p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

@@ -1,0 +1,53 @@
+.aboutHome {
+    background-image: url(imgs/product-design.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 300px;
+    position: relative;
+    z-index: -1;
+}
+.aboutHome .text{
+    z-index: 2;
+}
+.aboutHome .text .overlay{
+    background-color: rgba(0, 0, 0, 0.304);
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+ }
+ .aboutHome .text h1{
+     color: white;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 50px;
+     padding-top: 80px;
+ }
+ .aboutHome .text a{
+     color: #ffffff;
+     padding-top: 10px;
+     cursor: pointer;
+}
+ .sideBar{
+    background-image: url(imgs/\(lines\).svg);
+    background-position: center;
+    padding: 50px 0;
+ } 
+.sideBar .list li{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.326);
+    padding: 10px 0;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.list a{
+    color:#0f0439;
+}
+.list .icon{
+    font-size:12px;
+}
+.sideBar .text1{
+    padding-bottom: 80px;
+}
+.sideBar .list li a:hover{
+    color: #f6630f;
+}
